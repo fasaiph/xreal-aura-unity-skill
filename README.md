@@ -11,7 +11,7 @@ Not affiliated with XREAL or Unity — field notes from a creator, *Fasai Builds
 ## Install
 
 ```sh
-git clone <this repo> ~/Developer/xreal-aura-unity-skill
+git clone https://github.com/fasaiph/xreal-aura-unity-skill.git ~/Developer/xreal-aura-unity-skill
 ln -s ~/Developer/xreal-aura-unity-skill/xreal-aura-unity ~/.claude/skills/xreal-aura-unity
 ```
 Claude Code picks it up automatically when you work on Aura / Android XR Unity projects.
