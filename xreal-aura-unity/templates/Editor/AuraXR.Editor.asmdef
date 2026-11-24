@@ -1,0 +1,21 @@
+{
+    "name": "AuraXR.Editor",
+    "rootNamespace": "AuraXR.Editor",
+    "references": [
+        "AuraXR",
+        "Unity.XR.CoreUtils",
+        "Unity.XR.Hands",
+        "Unity.InputSystem",
+        "Unity.XR.Management",
+        "Unity.XR.Management.Editor",
+        "Unity.XR.OpenXR",
+        "Unity.XR.ARFoundation",
+        "Unity.XR.ARSubsystems",
+        "Unity.XR.OpenXR.Editor",
+        "Unity.RenderPipelines.Core.Runtime",
+        "Unity.RenderPipelines.Universal.Runtime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ]
+}

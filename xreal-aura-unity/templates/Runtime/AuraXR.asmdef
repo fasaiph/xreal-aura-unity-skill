@@ -1,0 +1,13 @@
+{
+    "name": "AuraXR",
+    "rootNamespace": "AuraXR",
+    "references": [
+        "Unity.XR.Hands",
+        "Unity.InputSystem",
+        "Unity.XR.OpenXR",
+        "Unity.XR.ARFoundation",
+        "Unity.XR.ARSubsystems",
+        "Unity.XR.AndroidOpenXR"
+    ],
+    "autoReferenced": true
+}
