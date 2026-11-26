@@ -27,5 +27,6 @@
 | Edits from terminal not picked up | Unity not focused / screen locked | `open -a Unity`; check DLL timestamps and Editor.log |
 | adb retries fail after a drop: `no device with transport id` / `device offline` | Serial/transport id change on reconnect | Re-resolve the device each command (`aura.sh`) |
 | `adb connect` refused, device visible in mdns | Aura asleep or Wireless debugging off; stale port | Wake it, re-check Wireless debugging, `adb mdns services` again |
+| No `_adb-tls-connect` service in `adb mdns services` (maybe only a stale `_adb._tcp ... :5555`), connect refused even with Wireless debugging on | The Aura dropped this computer's pairing (its IP may have changed too) | Wireless debugging → Pair device with pairing code → `adb pair <ip>:<port> <code>`; it then reconnects by itself |
 | `adb screencap` shows the ceiling/room, not the app | It captures the passthrough camera | Use Quick Settings screen recording, or ask the user |
 | Recordings look poor for video | On-device capture quality | Render offline in the Editor with alpha and composite |
